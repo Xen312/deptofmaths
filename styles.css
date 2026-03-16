@@ -686,7 +686,6 @@ header nav .nav-links .menu-btn i {
   flex-direction: column;
   gap: 15px;
   flex-grow: 1;
-  /* Existing button styling */
 }
 #about-contact .about-us form .form-group, #about-contact .contact-us form .form-group {
   display: flex;
@@ -706,6 +705,9 @@ header nav .nav-links .menu-btn i {
 }
 #about-contact .about-us form .form-group #message, #about-contact .contact-us form .form-group #message {
   resize: none;
+}
+#about-contact .about-us form, #about-contact .contact-us form {
+  /* Existing button styling */
 }
 #about-contact .about-us form button[type=submit], #about-contact .contact-us form button[type=submit] {
   font-family: "Jost";
